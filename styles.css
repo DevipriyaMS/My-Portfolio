@@ -85,7 +85,7 @@ nav i{
 }
 #logos{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
     /* padding-right: 20px;
     size: 20px; */
     /* justify-content: flex-end;
@@ -95,13 +95,15 @@ nav i{
 }
 #logos i{
     display: inline;
-    padding-inline: 20px;
-    font-size: 80px;
+    padding-inline: 16px;
+    font-size: 55px;
+    text-decoration: none;
+    color: black;
 }
 #aboutmain {
     width: 800px;
     height: 60vh;
-    margin: 50px auto;
+    margin: 70px auto;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
@@ -232,7 +234,7 @@ nav i{
     position: absolute;
     top: 100%;
     left: 0;
-    width: 100%;
+    width: 95%;
     background-color: #fff;
     border: 1px solid #ccc;
     /* height: 100vh;
@@ -250,6 +252,7 @@ nav i{
 .pictures {
     display: grid;
     grid-template-columns: auto auto;
+    padding: 35px;
     
 }
 
@@ -262,25 +265,30 @@ nav i{
     padding: 10px;
 }
 .line{
-    height: 12px;
+    height: 19px;
     background-color: rgb(196, 190, 190);
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
     width: 100%;
 }
 .filler1{
-    background-color: rgb(95, 93, 93);
+    background-color: rgb(86, 133, 77);
     height: 100%;
-    width: 65%;
+    width: 50%;
 }
 .filler2{
-    background-color: rgb(95, 93, 93);
+    background-color: rgb(138, 59, 59);
     height: 100%;
     width: 75%;
 }
 .filler3{
-    background-color: rgb(95, 93, 93);
+    background-color: rgb(68, 138, 151);
     height: 100%;
     width: 80%;
+}
+.filler4{
+    background-color: rgb(151, 68, 125);
+    height: 100%;
+    width: 59%;
 }
 
 #contactmain{
